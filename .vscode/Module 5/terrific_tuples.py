@@ -16,7 +16,8 @@ if __name__ == "__main__":
 
     # quary = (4, 5) # will check if other variable are in variables
     # print(f'"{quary}" is in my tuple?: {quary in my_tuple}') # Will print true/false
-
+    # use letter for tuple
+    
     for letter in my_tuple:
         print(letter)
 
