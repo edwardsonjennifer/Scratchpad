@@ -75,7 +75,8 @@ if __name__ == "__main__":
 
     # print('bulbasaur' in my_pokemon)
 
-    pokedex = my_pokemon
+    # use [:] to seperate the two variables
+    pokedex = my_pokemon[:]
     print(pokedex)
     print(my_pokemon)
 
@@ -83,3 +84,5 @@ if __name__ == "__main__":
 
     print(pokedex)
     print(my_pokemon)
+
+    print('script complete')
