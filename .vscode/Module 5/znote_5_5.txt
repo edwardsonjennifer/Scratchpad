@@ -1,0 +1,16 @@
+5.5 Notes
+
+Use a list when:
+    Data is a natural order to it(minimal changes to order)
+    you will need to update or alter the data during the program
+    The primary purpost of the data structure is iteration(most likly for loops)
+
+Use a tuple when:
+    Data is a natural order to it(minimal changes to order)
+    you WILL NOT need to update or alter the data during the program
+    The primary purpost of the data structure is iteration(most likly for loops)
+
+Use a dict(dictionary)when:
+    the data is unordered, or the order does not matter
+    you will need to update or alter the data during the program
+    the primary purpose of the data sturcture is looking up values

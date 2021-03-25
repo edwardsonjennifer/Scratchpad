@@ -68,21 +68,25 @@ if __name__ == "__main__":
 
     # print(total)
 
-    # DO NOT add spacing it will print FALSE
-    pokemon = 'pikachu,bulbasaur,charmander'
-    my_pokemon = pokemon.split(',')
-    print(my_pokemon)
+    # # DO NOT add spacing it will print FALSE
+    # pokemon = 'pikachu,bulbasaur,charmander'
+    # my_pokemon = pokemon.split(',')
+    # print(my_pokemon)
 
-    # print('bulbasaur' in my_pokemon)
+    # # print('bulbasaur' in my_pokemon)
 
-    # use [:] to seperate the two variables
-    pokedex = my_pokemon[:]
-    print(pokedex)
-    print(my_pokemon)
+    # # use [:] to seperate the two variables
+    # pokedex = my_pokemon[:]
+    # print(pokedex)
+    # print(my_pokemon)
 
-    pokedex.append('mew')
+    # pokedex.append('mew')
 
-    print(pokedex)
-    print(my_pokemon)
+    # print(pokedex)
+    # print(my_pokemon)
 
-    print('script complete')
+    # print('script complete')
+
+    numbers = [3, 1, 19, 234]
+    sorted_numbers = numbers.sort()
+    print(sorted_numbers)
