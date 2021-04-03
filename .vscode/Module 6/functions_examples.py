@@ -27,5 +27,5 @@ print(value_returning())
 def non_value_returning():
     print('Hello World!')
 
-var = non_value_returning()
-print(var)
+# var = non_value_returning()
+# print(var)
