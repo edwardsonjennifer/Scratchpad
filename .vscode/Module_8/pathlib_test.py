@@ -15,10 +15,16 @@ import pathlib
 
 # print('the end')
 
-path = pathlib.Path('Module 8\test.txt')
-print(path.exists())
+path = pathlib.Path("01resources/test01.txt")
+
+
+numbers = []
+for num in range(10):
+    numbers.append(str(num) + '\n')
+
+print(numbers)
 
 with open(path, 'w') as writer:
-    print(writer)
+    writer.writelines(numbers)
 
-print(path.exist())
+print(writer.closed)
