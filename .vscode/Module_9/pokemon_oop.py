@@ -8,7 +8,7 @@ caterpie = {
     'hp': 40,
     'move': ('String Shot', 10)
 }
-### Module 01 Notes
+### Module 9.1 Notes
 ## What is OOP?
 # sometimes code can repetitive or weird, wanting a neat and clean code
 # it gives you the ability to distile a massive amount of code into a section
@@ -35,4 +35,20 @@ caterpie = {
 
 # An object like Pokemon Cards can have similar attributes (name, hp, type, move(s), weakness)
 # Pokemon can be thought as a class of monsters. One specific pokemon can be a object or instance
-# of the class Pokemon. ##
+# of the class Pokemon. 
+# 
+### Module 9.2 Notes
+## Understanding Objects
+# Objects are a constructed instance of a class that contains all the attributes and methods that
+# were defined by the class. Also called a instance.
+# Objects have:
+# -Attributes(properties): class variables that store data.
+# -Methods: class functions for processing data. 
+# -attributes and methods are accessed via the 'dot' notation.
+# -Can be assigned to variables and passed into functions.
+# 
+# str, int and other data types are instances of objects
+# you can access a objects "directory" or available attributes and methods via the dir function
+#
+## Everything in Python is a object
+# This includes the variables, functions, ##
