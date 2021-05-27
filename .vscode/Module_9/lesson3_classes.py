@@ -112,6 +112,6 @@ def battle(poke1, poke2):
     print(poke1)
     print(poke2)
 
-battle(starmie, sawsbuck)
+battle(starmie, poliwag)
 
 koffing.has_move('Foul Gas')
