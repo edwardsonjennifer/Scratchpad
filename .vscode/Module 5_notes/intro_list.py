@@ -68,10 +68,10 @@ if __name__ == "__main__":
 
     # print(total)
 
-    # # DO NOT add spacing it will print FALSE
-    # pokemon = 'pikachu,bulbasaur,charmander'
-    # my_pokemon = pokemon.split(',')
-    # print(my_pokemon)
+    # DO NOT add spacing it will print FALSE
+    pokemon = 'pikachu,bulbasaur,charmander'
+    my_pokemon = pokemon.split(',')
+    print(my_pokemon)
 
     # # print('bulbasaur' in my_pokemon)
 
